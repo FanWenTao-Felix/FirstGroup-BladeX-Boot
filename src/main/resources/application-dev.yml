@@ -1,0 +1,22 @@
+#数据源配置
+spring:
+  datasource:
+    #     mysql
+    url: jdbc:mysql://47.107.189.111:3306/archer?useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&serverTimezone=GMT%2B8
+    username: root
+    password: root
+  redis:
+    host: 47.107.189.111
+    port: 6379
+    password: 123456
+    database: 1
+    ssl: false
+
+##blade配置
+#blade:
+#  #本地文件上传
+#  file:
+#    remote-mode: true
+#    upload-domain: http://localhost:8999
+#    remote-path: /usr/share/nginx/html
+
